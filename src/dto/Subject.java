@@ -7,8 +7,7 @@ public class Subject {
     private Teacher teacher;
     private List<Student> studentList;
 
-    public Subject() {
-    }
+    public Subject() {}
 
     public Subject(String name, Teacher teacher, List<Student> studentList) {
         this.name = name;
